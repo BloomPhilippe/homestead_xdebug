@@ -101,10 +101,18 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     
     ![ps2](images/ps2.png)
     
-    8.2 Ajouter un CLI Interpreter
+    8.2 Ajouter un CLI Interpreter situé sur la machine virtuel
     
     Allez dans settings > Languages & Frameworks > PHP
     
     ![ps2-inter](videos/ps-interpreter.gif)
+    
+    8.3 Ajouter un server lié au PHP
+    
+    ![ps2-inter](images/ps4.png)
+    
+    **Attention au mapping entre le dossier du projet local et distant !**
+    
+    
     
     
