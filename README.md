@@ -95,4 +95,10 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     
     ![ps1](images/ps1.png)
     
-    Attention, la clé SSH doit être la même que pour vous connecter via vagrant !
+    **Attention, la clé SSH doit être la même que pour vous connecter via vagrant !**
+    
+    Cliquez sur Mapping et liez vos dossiers local et distant
+    
+    ![ps2](images/ps1.png)
+    
+    
