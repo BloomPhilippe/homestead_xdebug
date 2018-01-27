@@ -6,7 +6,7 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
 
 2. Suivez les instructions
 
-  Commentaire : Je suis resté sur master
+    Commentaire : Je suis resté sur master
  
 3. Connectez vous en ssh sur Homestead
 
@@ -27,4 +27,15 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     Résultat :
     
     ![xdebug](images/xdebug.png)
+    
+5. Lier Xdebug à PHP et PHP CLI
+    
+    5.1 Vérifier votre version PHP
+    
+    ````
+    php -v
+    ````
+    
+    ![php](videos/php-v.gif)
+    
 
