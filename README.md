@@ -85,3 +85,14 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     Ci-dessous, vous pouvez vos configurations
     
     ![lien](images/lien2.png)
+    
+    
+8. Configurez votre PhpStorm
+
+    8.1 Créer un SFTP deploiement
+    
+    Allez dans Tools > Deployment > Configuration...
+    
+    ![ps1](images/ps1.png)
+    
+    Attention, la clé SSH doit être la même que pour vous connecter via vagrant !
