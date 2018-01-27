@@ -99,6 +99,6 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     
     Cliquez sur Mapping et liez vos dossiers local et distant
     
-    ![ps2](images/ps1.png)
+    ![ps2](images/ps2.png)
     
     
