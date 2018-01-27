@@ -101,4 +101,10 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     
     ![ps2](images/ps2.png)
     
+    8.2 Ajouter un CLI Interpreter
+    
+    Allez dans settings > Languages & Frameworks > PHP
+    
+    ![ps2-inter](videos/ps-interpreter.gif)
+    
     
