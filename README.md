@@ -72,3 +72,16 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     xdebug.profiler_output_dir='/home/vagrant/profile'
     ````
     
+7. Vérifiez que Xdebug est bien parametré et bien lié à PHP
+
+    Créez un fichier PHP dans le dossier du projet et effectué ajoutez-y un ``phpinfo()`` 
+    
+    Allez sur l'URL de votre projet afin de voir les informations PHP
+    
+    Ci-dessous, vous pouvez voir que Xdebug est bien lié
+    
+    ![lien](images/lien1.png)
+    
+    Ci-dessous, vous pouvez vos configurations
+    
+    ![lien](images/lien2.png)
