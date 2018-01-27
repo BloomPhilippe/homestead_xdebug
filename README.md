@@ -14,5 +14,17 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     vagrant ssh
     ````
     
-4. Installez Xdebug avec leur Git [ici](https://github.com/xdebug/xdebug)
+4. Installez Xdebug avec Git [ici](https://github.com/xdebug/xdebug) sur Homestead
+    
+    ````
+    git clone https://github.com/xdebug/xdebug.git
+    
+    cd xdebug
+    
+    sudo sh rebuild.sh
+    ````
+    
+    Résultat :
+    
+    ![xdebug](images/xdebug.png)
 
