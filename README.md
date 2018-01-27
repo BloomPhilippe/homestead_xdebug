@@ -107,11 +107,33 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     
     ![ps2-inter](videos/ps-interpreter.gif)
     
-    8.3 Ajouter un server lié au PHP
+    8.3 Ajouter un server de débug PHP
     
     ![ps2-inter](images/ps4.png)
     
     **Attention au mapping entre le dossier du projet local et distant !**
+    
+9. Configurer le navigateur
+
+    Télécharger le helper Xdebug pour Google Chrome
+    
+    [Lien](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=en)
+    
+10. Utilisation
+
+    10.1 Placer vos breakpoints dans PhpStorm
+    
+    ![help](videos/ps-help.gif)
+
+    10.2 Activer le debug de votre extension Google Chrome quand vous êtes sur la page à debugger
+    
+    ![help](images/helper1.png)
+    
+    10.3 Rafraigissez votre page
+    
+    ![end](images/finish.png)
+    
+    
     
     
     
