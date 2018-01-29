@@ -147,6 +147,7 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
 - [Lien](https://gist.github.com/thejettdurham/bd2a80d292bebe4a3c3bc0f34acc2d47)
 - [Lien](https://blog.theodo.fr/2016/08/configure-xdebug-phpstorm-vagrant/)
 - [Lien](https://code.i-harness.com/fr/q/1aa4643)
+- [Lien](http://danemacmillan.com/how-to-configure-xdebug-in-phpstorm-through-vagrant/)
     
     
     
