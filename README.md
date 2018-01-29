@@ -71,8 +71,14 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     xdebug.profiler_enable=1
     xdebug.profiler_output_dir='/home/vagrant/profile'
     ````
+
+7. Redémarrer PHP
+
+    ````
+     sudo service php7.2-fpm restart
+    ````
     
-7. Vérifiez que Xdebug est bien parametré et bien lié à PHP
+8. Vérifiez que Xdebug est bien parametré et bien lié à PHP
 
     Créez un fichier PHP dans le dossier du projet et effectué ajoutez-y un ``phpinfo()`` 
     
@@ -87,9 +93,9 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     ![lien](images/lien2.png)
     
     
-8. Configurez votre PhpStorm
+9. Configurez votre PhpStorm
 
-    8.1 Créer un SFTP deploiement
+    9.1 Créer un SFTP deploiement
     
     Allez dans Tools > Deployment > Configuration...
     
@@ -101,35 +107,35 @@ Quelques lignes afin d'expliquer comment configurer Homestead (VM Vagrant pour L
     
     ![ps2](images/ps2.png)
     
-    8.2 Ajouter un CLI Interpreter situé sur la machine virtuel
+    9.2 Ajouter un CLI Interpreter situé sur la machine virtuel
     
     Allez dans settings > Languages & Frameworks > PHP
     
     ![ps2-inter](videos/ps-interpreter.gif)
     
-    8.3 Ajouter un server de débug PHP
+    9.3 Ajouter un server de débug PHP
     
     ![ps2-inter](images/ps4.png)
     
     **Attention au mapping entre le dossier du projet local et distant !**
     
-9. Configurer le navigateur
+10. Configurer le navigateur
 
     Télécharger le helper Xdebug pour Google Chrome
     
     [Lien](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=en)
     
-10. Utilisation
+11. Utilisation
 
-    10.1 Placer vos breakpoints dans PhpStorm
+    11.1 Placer vos breakpoints dans PhpStorm
     
     ![help](videos/ps-help.gif)
 
-    10.2 Activer le debug de votre extension Google Chrome quand vous êtes sur la page à debugger
+    11.2 Activer le debug de votre extension Google Chrome quand vous êtes sur la page à debugger
     
     ![help](images/helper1.png)
     
-    10.3 Rafraigissez votre page
+    11.3 Rafraigissez votre page
     
     ![end](images/finish.png)
     
